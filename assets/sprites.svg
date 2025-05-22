@@ -1,6 +1,12 @@
 <svg display="none"
     xmlns="http://www.w3.org/2000/svg">
-    <symbol width="33" height="18" viewBox="0 0 33 18" id="burger-icon">
+    <symbol width="30" height="17" viewBox="0 0 30 17" fill="none" id="burger-icon">
+        <rect width="30" height="3" rx="1" fill="#39515E"/>
+        <rect y="7" width="30" height="3" rx="1" fill="#39515E"/>
+        <rect y="14" width="21.2195" height="3" rx="1" fill="#39515E"/>
+    </symbol>
+
+    <symbol width="33" height="18" viewBox="0 0 33 18" id="burger-icon-2">
         <line x1="0" y1="2" x2="33" y2="2" stroke="#000" stroke-width="3"/>
         <line x1="0" y1="9" x2="33" y2="9" stroke="#000" stroke-width="3"/>
         <line x1="0" y1="16" x2="33" y2="16" stroke="#000" stroke-width="3"/>
