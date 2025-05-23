@@ -43,24 +43,22 @@ h1, h2, h3, h4, h5, h6, p, figure, blockquote {
   font-family: "Poppins", sans-serif;
   color: var(--co-white);
   background-color: var(--co-dark);
-  transition: .2s all;
+  transition: opacity .2s all;
+  cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus-visible {
   opacity: 0.8;
-  cursor: pointer;
 }
 
 .descriptions {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
   color: var(--co-gray);
 }
 
 .title-h2 {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 48px;
   line-height: 1.67;
