@@ -1,6 +1,11 @@
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 *, *::before, *::after {
@@ -63,4 +68,10 @@ h1, h2, h3, h4, h5, h6, p, figure, blockquote {
   font-size: 48px;
   line-height: 1.67;
   color: var(--co-black);
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 10px;
+  }
 }
