@@ -70,6 +70,11 @@ h1, h2, h3, h4, h5, h6, p, figure, blockquote {
   color: var(--co-black);
 }
 
+.hr {
+  height: 1px;
+  background: #c4c4c4;
+}
+
 @media (max-width: 767px) {
   .container {
     padding: 0 10px;
